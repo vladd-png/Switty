@@ -18,6 +18,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* swittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* swittyTests.m */; };
 		33D2988665FA2FA979B88882 /* libPods-switty-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B3B03852AB6FBF2D6E82B9 /* libPods-switty-tvOSTests.a */; };
+		4D5D9C4A245A0BFC0092A997 /* run-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D5D9C49245A0BFC0092A997 /* run-bg.jpg */; };
+		4D6020D82459648F00CEF0D9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D6020D72459648F00CEF0D9 /* icon.png */; };
 		6C4335CB74524A9C6F3EAE6E /* libPods-switty-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C62A650C0A3A299D6BC690 /* libPods-switty-tvOS.a */; };
 		BA56E414487DFE7005D352A6 /* libPods-switty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1FC590E5C9351DAB292F25 /* libPods-switty.a */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,244 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "switty-tvOS";
+		};
+		4D6021052459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CBEFE4F9E22AFDC6347A739BB35FF8C;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		4D6021072459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FFB7B2992BB53405E6B771A5BA1E97D;
+			remoteInfo = DoubleConversion;
+		};
+		4D6021092459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABFEEA82A6C346B22843FBE0B0582182;
+			remoteInfo = FBReactNativeSpec;
+		};
+		4D60210B2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E93F701CA8EB196D77AE99E094D873E4;
+			remoteInfo = Flipper;
+		};
+		4D60210D2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC12C7E29555A7CFDDEF1EDB5BC2F3DA;
+			remoteInfo = "Flipper-DoubleConversion";
+		};
+		4D60210F2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99D5CD245388DC76AAEF6E1E351A90ED;
+			remoteInfo = "Flipper-Folly";
+		};
+		4D6021112459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E00BE2A3146698E81A8F9D00E8F93A6C;
+			remoteInfo = "Flipper-Glog";
+		};
+		4D6021132459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ACBB7F62B267CC7C9BBBAE41DE94743B;
+			remoteInfo = "Flipper-PeerTalk";
+		};
+		4D6021152459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFDC7746794AB17CFB7150820479DF40;
+			remoteInfo = "Flipper-RSocket";
+		};
+		4D6021172459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65234B3E668A42D9137B2C7AB051EE37;
+			remoteInfo = FlipperKit;
+		};
+		4D6021192459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06489499588BFA8FD5E63DD6375CD533;
+			remoteInfo = Folly;
+		};
+		4D60211B2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CA7A9404CCDD6BA22C97F8348CE3209;
+			remoteInfo = glog;
+		};
+		4D60211D2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A4FECC7DBD33266A1DB58F0540F9EF4;
+			remoteInfo = "Pods-switty";
+		};
+		4D60211F2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DE96822DF32881FAD059C13504677D8C;
+			remoteInfo = "Pods-switty-swittyTests";
+		};
+		4D6021212459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2ADAA4EB1867E608AC6EE24C17375A58;
+			remoteInfo = "Pods-switty-tvOS";
+		};
+		4D6021232459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF1BFDDFE07AF2EF7776C9101CB0F3C6;
+			remoteInfo = "Pods-switty-tvOSTests";
+		};
+		4D6021252459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F958876A082BF810B342435CE3FB5AF6;
+			remoteInfo = RCTTypeSafety;
+		};
+		4D6021272459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD71E2539823621820F84384064C253A;
+			remoteInfo = "React-Core";
+		};
+		4D6021292459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6771D231F4C8C5976470A369C474B32E;
+			remoteInfo = "React-CoreModules";
+		};
+		4D60212B2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37592FDAD45752511010F4B06AC57355;
+			remoteInfo = "React-cxxreact";
+		};
+		4D60212D2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9F334F2E90E3EE462FC4192AF5C03BD;
+			remoteInfo = "React-jsi";
+		};
+		4D60212F2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F2E7C88DFCD460A4B46B913ADEB8A641;
+			remoteInfo = "React-jsiexecutor";
+		};
+		4D6021312459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2577F299FCB0A19824FE989BE77B8E8F;
+			remoteInfo = "React-jsinspector";
+		};
+		4D6021332459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE7B9294FF05AAFD1653E2104E10844A;
+			remoteInfo = "React-RCTAnimation";
+		};
+		4D6021352459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F71EBF73F354B475D465FF6DE9A66707;
+			remoteInfo = "React-RCTBlob";
+		};
+		4D6021372459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEDBF403E8E0B3885E65C2741B536BC5;
+			remoteInfo = "React-RCTImage";
+		};
+		4D6021392459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 802121F5B756ACBFDD6D08C36246DADD;
+			remoteInfo = "React-RCTLinking";
+		};
+		4D60213B2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A68E5A9B69A3BA0FD52CAF7A354EC93B;
+			remoteInfo = "React-RCTNetwork";
+		};
+		4D60213D2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 269BE773C9482484B70949A40F4EA525;
+			remoteInfo = "React-RCTSettings";
+		};
+		4D60213F2459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6A16705C69FC7DE11C2469A4A0F8358;
+			remoteInfo = "React-RCTText";
+		};
+		4D6021412459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1A919103EAC9813D236486C34FC0A21;
+			remoteInfo = "React-RCTVibration";
+		};
+		4D6021432459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5C775614AC76D44CECB6BE08B022F1F;
+			remoteInfo = ReactCommon;
+		};
+		4D6021452459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65D0A19C165FA1126B1360680FE6DB12;
+			remoteInfo = Yoga;
+		};
+		4D6021472459688600CEF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B3357A1CE67C0BF4AE31936A1BE6888;
+			remoteInfo = YogaKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +296,10 @@
 		2D02E47B1E0B4A5D006451C7 /* switty-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "switty-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* switty-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "switty-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C62A650C0A3A299D6BC690 /* libPods-switty-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-switty-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5D9C49245A0BFC0092A997 /* run-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "run-bg.jpg"; path = "assets/run-bg.jpg"; sourceTree = "<group>"; };
+		4D6020D52459648400CEF0D9 /* abs-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "abs-bg.jpg"; path = "assets/abs-bg.jpg"; sourceTree = "<group>"; };
+		4D6020D72459648F00CEF0D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
+		4D6020D92459688600CEF0D9 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		4ED863476CDB8D889382A5C5 /* Pods-switty-swittyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switty-swittyTests.debug.xcconfig"; path = "Target Support Files/Pods-switty-swittyTests/Pods-switty-swittyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		541AC34C2F5BDF61E67250B7 /* Pods-switty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switty.debug.xcconfig"; path = "Target Support Files/Pods-switty/Pods-switty.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECC82FD121FD88628173669 /* Pods-switty-swittyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switty-swittyTests.release.xcconfig"; path = "Target Support Files/Pods-switty-swittyTests/Pods-switty-swittyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +393,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D6020DA2459688600CEF0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6021062459688600CEF0D9 /* libCocoaAsyncSocket.a */,
+				4D6021082459688600CEF0D9 /* libDoubleConversion.a */,
+				4D60210A2459688600CEF0D9 /* libFBReactNativeSpec.a */,
+				4D60210C2459688600CEF0D9 /* libFlipper.a */,
+				4D60210E2459688600CEF0D9 /* libFlipper-DoubleConversion.a */,
+				4D6021102459688600CEF0D9 /* libFlipper-Folly.a */,
+				4D6021122459688600CEF0D9 /* libFlipper-Glog.a */,
+				4D6021142459688600CEF0D9 /* libFlipper-PeerTalk.a */,
+				4D6021162459688600CEF0D9 /* libFlipper-RSocket.a */,
+				4D6021182459688600CEF0D9 /* libFlipperKit.a */,
+				4D60211A2459688600CEF0D9 /* libFolly.a */,
+				4D60211C2459688600CEF0D9 /* libglog.a */,
+				4D60211E2459688600CEF0D9 /* libPods-switty.a */,
+				4D6021202459688600CEF0D9 /* libPods-switty-swittyTests.a */,
+				4D6021222459688600CEF0D9 /* libPods-switty-tvOS.a */,
+				4D6021242459688600CEF0D9 /* libPods-switty-tvOSTests.a */,
+				4D6021262459688600CEF0D9 /* libRCTTypeSafety.a */,
+				4D6021282459688600CEF0D9 /* libReact-Core.a */,
+				4D60212A2459688600CEF0D9 /* libReact-CoreModules.a */,
+				4D60212C2459688600CEF0D9 /* libReact-cxxreact.a */,
+				4D60212E2459688600CEF0D9 /* libReact-jsi.a */,
+				4D6021302459688600CEF0D9 /* libReact-jsiexecutor.a */,
+				4D6021322459688600CEF0D9 /* libReact-jsinspector.a */,
+				4D6021342459688600CEF0D9 /* libReact-RCTAnimation.a */,
+				4D6021362459688600CEF0D9 /* libReact-RCTBlob.a */,
+				4D6021382459688600CEF0D9 /* libReact-RCTImage.a */,
+				4D60213A2459688600CEF0D9 /* libReact-RCTLinking.a */,
+				4D60213C2459688600CEF0D9 /* libReact-RCTNetwork.a */,
+				4D60213E2459688600CEF0D9 /* libReact-RCTSettings.a */,
+				4D6021402459688600CEF0D9 /* libReact-RCTText.a */,
+				4D6021422459688600CEF0D9 /* libReact-RCTVibration.a */,
+				4D6021442459688600CEF0D9 /* libReactCommon.a */,
+				4D6021462459688600CEF0D9 /* libYoga.a */,
+				4D6021482459688600CEF0D9 /* libYogaKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +444,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4D5D9C49245A0BFC0092A997 /* run-bg.jpg */,
+				4D6020D92459688600CEF0D9 /* Pods.xcodeproj */,
+				4D6020D72459648F00CEF0D9 /* icon.png */,
+				4D6020D52459648400CEF0D9 /* abs-bg.jpg */,
 				13B07FAE1A68108700A75B9A /* switty */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* swittyTests */,
@@ -284,7 +573,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -316,6 +605,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D6020DA2459688600CEF0D9 /* Products */;
+					ProjectRef = 4D6020D92459688600CEF0D9 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* switty */,
@@ -325,6 +620,247 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4D6021062459688600CEF0D9 /* libCocoaAsyncSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaAsyncSocket.a;
+			remoteRef = 4D6021052459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021082459688600CEF0D9 /* libDoubleConversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDoubleConversion.a;
+			remoteRef = 4D6021072459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60210A2459688600CEF0D9 /* libFBReactNativeSpec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFBReactNativeSpec.a;
+			remoteRef = 4D6021092459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60210C2459688600CEF0D9 /* libFlipper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFlipper.a;
+			remoteRef = 4D60210B2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60210E2459688600CEF0D9 /* libFlipper-DoubleConversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlipper-DoubleConversion.a";
+			remoteRef = 4D60210D2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021102459688600CEF0D9 /* libFlipper-Folly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlipper-Folly.a";
+			remoteRef = 4D60210F2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021122459688600CEF0D9 /* libFlipper-Glog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlipper-Glog.a";
+			remoteRef = 4D6021112459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021142459688600CEF0D9 /* libFlipper-PeerTalk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlipper-PeerTalk.a";
+			remoteRef = 4D6021132459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021162459688600CEF0D9 /* libFlipper-RSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFlipper-RSocket.a";
+			remoteRef = 4D6021152459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021182459688600CEF0D9 /* libFlipperKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFlipperKit.a;
+			remoteRef = 4D6021172459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60211A2459688600CEF0D9 /* libFolly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFolly.a;
+			remoteRef = 4D6021192459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60211C2459688600CEF0D9 /* libglog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libglog.a;
+			remoteRef = 4D60211B2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60211E2459688600CEF0D9 /* libPods-switty.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-switty.a";
+			remoteRef = 4D60211D2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021202459688600CEF0D9 /* libPods-switty-swittyTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-switty-swittyTests.a";
+			remoteRef = 4D60211F2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021222459688600CEF0D9 /* libPods-switty-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-switty-tvOS.a";
+			remoteRef = 4D6021212459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021242459688600CEF0D9 /* libPods-switty-tvOSTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-switty-tvOSTests.a";
+			remoteRef = 4D6021232459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021262459688600CEF0D9 /* libRCTTypeSafety.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTTypeSafety.a;
+			remoteRef = 4D6021252459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021282459688600CEF0D9 /* libReact-Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-Core.a";
+			remoteRef = 4D6021272459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60212A2459688600CEF0D9 /* libReact-CoreModules.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-CoreModules.a";
+			remoteRef = 4D6021292459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60212C2459688600CEF0D9 /* libReact-cxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-cxxreact.a";
+			remoteRef = 4D60212B2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60212E2459688600CEF0D9 /* libReact-jsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsi.a";
+			remoteRef = 4D60212D2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021302459688600CEF0D9 /* libReact-jsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsiexecutor.a";
+			remoteRef = 4D60212F2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021322459688600CEF0D9 /* libReact-jsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsinspector.a";
+			remoteRef = 4D6021312459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021342459688600CEF0D9 /* libReact-RCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTAnimation.a";
+			remoteRef = 4D6021332459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021362459688600CEF0D9 /* libReact-RCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTBlob.a";
+			remoteRef = 4D6021352459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021382459688600CEF0D9 /* libReact-RCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTImage.a";
+			remoteRef = 4D6021372459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60213A2459688600CEF0D9 /* libReact-RCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTLinking.a";
+			remoteRef = 4D6021392459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60213C2459688600CEF0D9 /* libReact-RCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTNetwork.a";
+			remoteRef = 4D60213B2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D60213E2459688600CEF0D9 /* libReact-RCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTSettings.a";
+			remoteRef = 4D60213D2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021402459688600CEF0D9 /* libReact-RCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTText.a";
+			remoteRef = 4D60213F2459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021422459688600CEF0D9 /* libReact-RCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTVibration.a";
+			remoteRef = 4D6021412459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021442459688600CEF0D9 /* libReactCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactCommon.a;
+			remoteRef = 4D6021432459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021462459688600CEF0D9 /* libYoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYoga.a;
+			remoteRef = 4D6021452459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D6021482459688600CEF0D9 /* libYogaKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYogaKit.a;
+			remoteRef = 4D6021472459688600CEF0D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -338,6 +874,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5D9C4A245A0BFC0092A997 /* run-bg.jpg in Resources */,
+				4D6020D82459648F00CEF0D9 /* icon.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -584,6 +1122,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4ED863476CDB8D889382A5C5 /* Pods-switty-swittyTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -607,6 +1146,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ECC82FD121FD88628173669 /* Pods-switty-swittyTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = swittyTests/Info.plist;
