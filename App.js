@@ -5,7 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Login from './Login.js';
 
-function MyStack() {
+const Stack = createStackNavigator();
+
+export default function MyStack() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
