@@ -9,9 +9,8 @@ const image = { url: '/Users/virginialadd/projects/switty/ios/assets/run-bg.jpg'
 
 export default function Login() {
   return (
-    <NavigationContainer>
     <SafeAreaView style={ styles.container }>
-      <ImageBackground source={ image }  style={ styles.image } >
+    <ImageBackground source={ image }  style={ styles.image } >
       <View>
         <TouchableOpacity style={ styles.buttonTop } >
           <Text style={{ fontSize: 32, color: 'white' }}>Train Today</Text>
@@ -25,7 +24,6 @@ export default function Login() {
       </View>
       </ImageBackground>
     </SafeAreaView>
-    </NavigationContainer>
   );
 }
 
