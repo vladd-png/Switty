@@ -7,19 +7,25 @@ function Separator() {
 
 const image = { url: '/Users/virginialadd/projects/switty/ios/assets/run-bg.jpg' };
 
-export default function Login() {
+export default function Login({ navigation }) {
   return (
     <SafeAreaView style={ styles.container }>
     <ImageBackground source={ image }  style={ styles.image } >
       <View>
-        <TouchableOpacity style={ styles.buttonTop } >
-          <Text style={{ fontSize: 32, color: 'white' }}>Train Today</Text>
+        <TouchableOpacity
+        style={ styles.buttonTop }
+        onPress={() => navigation.navigate('Train')}
+        >
+          <Text style={{ fontSize: 32, color: 'white' }} >Train Today</Text>
         </TouchableOpacity>
       </View>
       <Separator />
       <View>
-        <TouchableOpacity style={ styles.buttonBottom } >
-          <Text style={{ fontSize: 32, color: 'white' }}>Run Today</Text>
+        <TouchableOpacity
+        style={ styles.buttonBottom }
+        onPress={() => navigation.navigate('Run')}
+        >
+          <Text style={{ fontSize: 32, color: 'white' }} >Run Today</Text>
         </TouchableOpacity>
       </View>
       </ImageBackground>
@@ -44,7 +50,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     resizeMode: 'cover',
-    marginTop: '-20%',
+    marginTop: '-30%',
     width: '110%',
     marginLeft: '-10%',
     height: '110%'
