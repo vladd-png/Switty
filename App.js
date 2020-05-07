@@ -4,6 +4,7 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Login from './Components/Login.js';
+// import Timer from './Components/timerComponent.js';
 import Timer from './Components/Timer.js';
 import Train from './Components/Train.js';
 
